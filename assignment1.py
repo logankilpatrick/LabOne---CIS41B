@@ -12,6 +12,12 @@ def main() :
     data.printByLast()  # print all data sorted by last field
     print(next(gen))    # fetch next data of object
     data.printMaxMin()  # print the max and min of the total scores
+    
     print(next(gen))    # fetch next data of object
+    print(next(gen))    # fetch next data of object
+    print(next(gen))    # fetch next data of object
+    print(next(gen))    # fetch next data of object
+    #fixed issue with generator using for loop! 
+   
     
 main()

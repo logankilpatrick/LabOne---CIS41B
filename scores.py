@@ -55,10 +55,14 @@ class Scores:
         
         # data set will have to change to work with sorted names 
         self.dataHolder.sort(key = lambda row : row[0])
+        '''
         i = 0
         while True :
             yield self.dataHolder[i]  #keyword yield to create next value in sequence 
-            i += 1        
+            i += 1   
+        '''
+        for d in self.dataHolder:
+            yield d
     
     
     def printByLast(self):
